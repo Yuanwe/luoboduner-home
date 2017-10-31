@@ -5,7 +5,7 @@
         <nav class="navbar navbar-expand-md no-gutters">
           <div class="col-2 text-left">
             <a href="https://www.froala.com">
-              <img src="./assets/imgs/img_logo.png" height="30" alt="image">
+              <h2>萝卜墩儿</h2>
             </a>
           </div>
 
@@ -16,16 +16,19 @@
           <div class="collapse navbar-collapse justify-content-center col-md-8" id="navbarNav4">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item active">
-                <a class="nav-link" href="https://www.froala.com">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="https://www.froala.com">首页 <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">Features</a>
+                <a class="nav-link" href="https://www.froala.com">blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">Pricing</a>
+                <a class="nav-link" href="https://www.froala.com">简历</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">Team</a>
+                <a class="nav-link" href="https://www.froala.com">作品</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.froala.com">关于</a>
               </li>
             </ul>
           </div>
@@ -47,23 +50,53 @@
         </nav>
       </div>
     </header>
+    <hr/>
+
     <router-view/>
+
+    <hr/>
+
+    <footer class="fdb-block footer-large">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <p>© 2017 萝卜墩儿</p>
+            <p>I like Sunny</p>
+            <p>zhoubochina@163.com</p>
+            <p><a href="http://www.miitbeian.gov.cn/">京ICP备17030853号</a></p>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col text-center">
+            <p class="text-h3">
+              <a href="https://www.froala.com"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; &nbsp;
+              <a href="https://www.froala.com"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp; &nbsp;
+              <a href="https://www.froala.com"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp;
+              <a href="https://www.froala.com"><i class="fa fa-pinterest" aria-hidden="true"></i></a> &nbsp; &nbsp;
+              <a href="https://www.froala.com"><i class="fa fa-google" aria-hidden="true"></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
+  export default {
+    name: 'app'
+  }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
 </style>
