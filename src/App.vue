@@ -3,17 +3,18 @@
     <header>
       <div class="container">
         <nav class="navbar navbar-expand-md no-gutters">
-          <div class="col-2 text-left">
+          <div class="col-3 text-left">
             <a href="https://www.froala.com">
-              <h2>萝卜墩儿</h2>
+              <h2 id="title">萝卜墩儿</h2>
             </a>
+            <small id="slogan">萝卜蹲，萝卜蹲，萝卜蹲完黄瓜蹲</small>
           </div>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse justify-content-center col-md-8" id="navbarNav4">
+          <div class="collapse navbar-collapse justify-content-center col-md-6" id="navbarNav4">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item active">
                 <a class="nav-link" href="https://www.froala.com">首页 <span class="sr-only">(current)</span></a>
@@ -33,7 +34,7 @@
             </ul>
           </div>
 
-          <ul class="navbar-nav col-2 justify-content-end d-none d-md-flex">
+          <ul class="navbar-nav col-3 justify-content-end d-none d-md-flex">
             <li class="nav-item">
               <a class="nav-link" href="https://www.froala.com"><i class="fa fa-facebook"></i></a>
             </li>
@@ -50,11 +51,8 @@
         </nav>
       </div>
     </header>
-    <hr/>
 
     <router-view/>
-
-    <hr/>
 
     <footer class="fdb-block footer-large">
       <div class="container">
@@ -94,5 +92,13 @@
   #app {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+  }
+
+  #title {
+    color: #333;
+  }
+
+  #slogan {
+    color: #777;
   }
 </style>
