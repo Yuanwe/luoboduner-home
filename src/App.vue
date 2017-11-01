@@ -29,6 +29,12 @@
                 <a class="nav-link" href="https://www.froala.com">作品</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="https://www.froala.com">照片</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.froala.com">诗</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="https://www.froala.com">关于</a>
               </li>
             </ul>
