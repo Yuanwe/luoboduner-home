@@ -3,7 +3,7 @@
     <header>
       <div class="container">
         <nav class="navbar navbar-expand-md no-gutters">
-          <div class="col-4 text-left">
+          <div class="col-8 text-left">
             <a href="https://www.froala.com">
               <h3 id="title">萝卜墩儿</h3>
             </a>
@@ -14,10 +14,10 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse justify-content-center col-md-4" id="navbarNav4">
+          <div class="collapse navbar-collapse justify-content-end col-md-4" id="navbarNav4">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item active">
-                <router-link class="nav-link" to="/">首页 <span class="sr-only">(current)</span></router-link>
+                <router-link class="nav-link" to="/">首页</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/blog">blog</router-link>
@@ -39,21 +39,6 @@
               </li>
             </ul>
           </div>
-
-          <ul class="navbar-nav col-4 justify-content-end d-none d-md-flex">
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.froala.com"><i class="fa fa-facebook"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.froala.com"><i class="fa fa-twitter"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.froala.com"><i class="fa fa-github"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.froala.com"><i class="fa fa-google"></i></a>
-            </li>
-          </ul>
         </nav>
       </div>
     </header>
