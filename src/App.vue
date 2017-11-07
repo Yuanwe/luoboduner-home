@@ -17,7 +17,7 @@
           <div class="collapse navbar-collapse justify-content-center col-md-4" id="navbarNav4">
             <ul class="navbar-nav justify-content-center">
               <li class="nav-item active">
-                <a class="nav-link" href="https://www.froala.com">首页 <span class="sr-only">(current)</span></a>
+                <router-link class="nav-link" to="/">首页 <span class="sr-only">(current)</span></router-link>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://www.froala.com">blog</a>
@@ -35,7 +35,7 @@
                 <a class="nav-link" href="https://www.froala.com">诗</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">关于</a>
+                <router-link class="nav-link" to="/about">关于</router-link>
               </li>
             </ul>
           </div>
