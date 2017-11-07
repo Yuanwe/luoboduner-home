@@ -2,7 +2,7 @@
 <template>
   <section class="fdb-block" id="call-to-action">
     <div class="container">
-      <p>About is comming soon</p>
+      <p>Poem is comming soon</p>
     </div>
   </section>
 </template>

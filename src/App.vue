@@ -20,19 +20,19 @@
                 <router-link class="nav-link" to="/">首页 <span class="sr-only">(current)</span></router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">blog</a>
+                <router-link class="nav-link" to="/blog">blog</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">简历</a>
+                <router-link class="nav-link" to="/resume">简历</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">作品</a>
+                <router-link class="nav-link" to="/effort">作品</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">照片</a>
+                <router-link class="nav-link" to="/photo">照片</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.froala.com">诗</a>
+                <router-link class="nav-link" to="/poem">诗</router-link>
               </li>
               <li class="nav-item">
                 <router-link class="nav-link" to="/about">关于</router-link>
