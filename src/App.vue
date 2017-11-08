@@ -16,27 +16,27 @@
 
           <div class="collapse navbar-collapse justify-content-end col-md-4" id="navbarNav4">
             <ul class="navbar-nav justify-content-center">
-              <li class="nav-item active">
-                <router-link class="nav-link" to="/">首页</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/blog">blog</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/resume">简历</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/effort">作品</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/photo">照片</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/poem">诗</router-link>
-              </li>
-              <li class="nav-item">
-                <router-link class="nav-link" to="/about">关于</router-link>
-              </li>
+              <router-link class="nav-item" tag="li" to="/home" activeClass="active">
+                <a class="nav-link">首页</a>
+              </router-link>
+              <router-link class="nav-item" tag="li" to="/blog" activeClass="active">
+                <a class="nav-link">blog</a>
+              </router-link>
+              <router-link class="nav-item" tag="li" to="/resume" activeClass="active">
+                <a class="nav-link">简历</a>
+              </router-link>
+              <router-link class="nav-item" tag="li" to="/effort" activeClass="active">
+                <a class="nav-link">作品</a>
+              </router-link>
+              <router-link class="nav-item" tag="li" to="/photo" activeClass="active">
+                <a class="nav-link">照片</a>
+              </router-link>
+              <router-link class="nav-item" tag="li" to="/poem" activeClass="active">
+                <a class="nav-link">诗</a>
+              </router-link>
+              <router-link class="nav-item" tag="li" to="/about" activeClass="active">
+                <a class="nav-link">关于</a>
+              </router-link>
             </ul>
           </div>
         </nav>
