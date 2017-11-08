@@ -7,7 +7,7 @@
             <a href="https://www.froala.com">
               <h3 id="title">萝卜墩儿</h3>
             </a>
-            <small id="slogan">萝卜蹲，萝卜蹲，萝卜蹲完黄瓜蹲</small>
+            <small id="slogan">萝卜蹲，萝卜蹲，萝卜蹲完谁来蹲</small>
           </div>
 
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,11 +59,11 @@
         <div class="row mt-4">
           <div class="col text-center">
             <p class="text-h3">
-              <a href="https://www.froala.com"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; &nbsp;
-              <a href="https://www.froala.com"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp; &nbsp;
-              <a href="https://www.froala.com"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp;
-              <a href="https://www.froala.com"><i class="fa fa-pinterest" aria-hidden="true"></i></a> &nbsp; &nbsp;
-              <a href="https://www.froala.com"><i class="fa fa-google" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a> &nbsp; &nbsp;
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp; &nbsp;
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp;
+              <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a> &nbsp; &nbsp;
+              <a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
             </p>
           </div>
         </div>
