@@ -40,8 +40,8 @@
 
   .lightBoxGallery img {
     margin: 2px;
-    height: 160px;
-    width: 240px;
+    height: 240px;
+    width: 300px;
   }
 </style>
 
